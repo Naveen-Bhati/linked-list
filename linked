@@ -1,0 +1,31 @@
+#include<stdio.h>
+#include<iostream>
+using namespace std;
+
+struct node{
+    int data;
+    node* next;
+};
+struct node* head;
+
+void insert(int x , int pos){
+   
+    node* temp1 = new node();
+     temp1->data = x;
+    int count =1;
+    node* temp = head;
+   while(count!= pos-1){
+       temp=temp1->next
+   } 
+   
+
+int main() {
+    head =NULL;
+  
+   insert(2,1);
+   insert(3,1);
+   insert(8,2);
+   insert(4,5);
+   
+   
+}
